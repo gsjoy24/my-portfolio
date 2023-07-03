@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+font-family: 'Josefin Sans', sans-serif;
+scroll-behavior: smooth;
+}
+.myImg{
+   animation: myImg 4s ease-out 0s infinite alternate both;
+}
+@keyframes myImg {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(6px, -6px);
+		-webkit-transform: translate(6px, -6px);
+		-moz-transform: translate(6px, -6px);
+		-ms-transform: translate(6px, -6px);
+		-o-transform: translate(6px, -6px);
+}
+
+	40% {
+		transform: translate(6px, 6px);
+	}
+
+	60% {
+		transform: translate(-6px, 6px);
+	}
+
+	80% {
+		transform: translate(-6px, -6px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
