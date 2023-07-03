@@ -20,12 +20,12 @@ function App() {
       <input checked={isNavOpen} id="my-drawer-3" type="checkbox" className="drawer-toggle" readOnly />
       <div className="drawer-content flex flex-col overflow-hidden">
         {/* Navbar */}
-        <div className="w-full navbar bg-white dark:bg-[#001E3E] sticky top-0 z-40 px-12">
+        <div className="w-full navbar bg-white dark:bg-[#001E3E] sticky top-0 z-40 md:px-12 border-b shadow-sm">
           <div className="flex-1 px-2 mx-2 font-bold text-3xl">Gour</div>
           <div className="flex-none lg:hidden">
             {isNavOpen ?
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost" onClick={() => setIsNavOpen(false)} >
-                <RxCrossCircled size={25} />
+                <RxCrossCircled size={30} />
               </label>
               :
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost" onClick={() => setIsNavOpen(true)} >
@@ -48,7 +48,7 @@ function App() {
             left: -50,
             right: 0,
             bottom: 0,
-          }} className='px-5 md:px-20'>
+          }} >
           <Banner />
         </motion.div>
       </div>
