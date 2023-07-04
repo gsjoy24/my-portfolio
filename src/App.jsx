@@ -6,6 +6,8 @@ import { RxCrossCircled } from "react-icons/rx"
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -49,7 +51,9 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Contact />
         </div>
+          <Footer/>
       </div>
       <div className="drawer-side z-40">
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>

@@ -11,7 +11,7 @@ import img from '../../assets/lottie/img.json'
 
 const Banner = () => {
    return (
-      <div id='home' className="flex flex-col-reverse sm:flex-row items-center :justify-center gap-8">
+      <div id='home' className="flex flex-col-reverse sm:flex-row items-center gap-8 pt-3 md:pt-12">
          <div className="max-w-lg sm:min-w-[300px]">
             <p className='text-2xl font-semibold flex items-center mb-3' data-aos="fade-left" data-aos-delay="200">Hello there
                <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fc/512.gif" alt="👋" width="32" height="32" />

@@ -11,7 +11,7 @@ import SingleProject from "./SingleProject";
 
 const Projects = () => {
    return (
-      <div className="py-16 relative">
+      <div id="projects" className="pt-32 relative">
          <SectionTitle title='projects' />
          <div className="flex justify-evenly flex-wrap gap-8">
             <SingleProject
