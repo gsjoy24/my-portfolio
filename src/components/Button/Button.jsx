@@ -4,14 +4,15 @@ import { BiCloudDownload } from 'react-icons/bi'
 
 const Button = () => {
    return (
-      <button className="button">
+      <a href={resume} download><button className="button">
          <span className="button_lg">
             <span className="button_sl"></span>
-            <span className="button_text">
-               <a className='flex gap-2 items-center' href={resume} download> <BiCloudDownload size={25}/> Resume</a>
+            <span className="button_text flex gap-2 items-center">
+               <BiCloudDownload size={25} /> Resume
             </span>
          </span>
       </button>
+      </a>
    );
 };
 

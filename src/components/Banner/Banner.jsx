@@ -47,8 +47,8 @@ const Banner = () => {
             </div>
          </div>
          <div data-aos="fade-left" data-aos-delay="500" className="max-w-[350px]  p-6 relative">
-            <img className="min-w-[280px] min-h-[280px] w-full p-2 rounded-full shadow-md shadow-slate-800" src={myImg} alt="Gour Chandra Saha" />
-            <div className="myImg max-w-md min-w-[80px] absolute -bottom-14 md:-bottom-5 -right-44 md:-right-56 " data-aos="zoom-in" data-aos-delay="300">
+            <img className="min-w-[270px] min-h-[280px] w-full p-2 rounded-full shadow-md shadow-slate-800" src={myImg} alt="Gour Chandra Saha" />
+            <div className="myImg max-w-md min-w-[150px] absolute -bottom-14 md:-bottom-5 -right-44 md:-right-56" data-aos="zoom-in" data-aos-delay="300">
                <Lottie className="w-full" animationData={img} />
             </div>
          </div>
