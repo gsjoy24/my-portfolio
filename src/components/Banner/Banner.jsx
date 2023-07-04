@@ -11,7 +11,7 @@ import img from '../../assets/lottie/img.json'
 
 const Banner = () => {
    return (
-      <div id='home' className="flex flex-col-reverse sm:flex-row items-center :justify-center gap-8 py-8">
+      <div id='home' className="flex flex-col-reverse sm:flex-row items-center :justify-center gap-8">
          <div className="max-w-lg sm:min-w-[300px]">
             <p className='text-2xl font-semibold flex items-center mb-3' data-aos="fade-left" data-aos-delay="200">Hello there
                <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fc/512.gif" alt="👋" width="32" height="32" />
@@ -46,8 +46,8 @@ const Banner = () => {
                <Button />
             </div>
          </div>
-         <div data-aos="fade-left" data-aos-delay="500" className="max-w-[350px] p-6 relative">
-            <img className="myImg min-w-[280px] w-full p-2 rounded-full shadow-md shadow-slate-800" src={myImg} alt="Gour Chandra Saha" />
+         <div data-aos="fade-left" data-aos-delay="500" className="max-w-[350px]  p-6 relative">
+            <img className="min-w-[280px] min-h-[280px] w-full p-2 rounded-full shadow-md shadow-slate-800" src={myImg} alt="Gour Chandra Saha" />
             <div className="myImg max-w-md min-w-[80px] absolute -bottom-14 md:-bottom-5 -right-44 md:-right-56 " data-aos="zoom-in" data-aos-delay="300">
                <Lottie className="w-full" animationData={img} />
             </div>

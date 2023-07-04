@@ -5,7 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    }
   },
   darkMode: 'class',
   // eslint-disable-next-line no-undef
