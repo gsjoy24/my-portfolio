@@ -22,7 +22,7 @@ import Lottie from "lottie-react";
 import skillsImg from '../../assets/lottie/skills.json'
 const Skills = () => {
    return (
-      <div id="skills" className="flex flex-col lg:flex-row justify-center items-center gap-x-5 pt-16">
+      <div id="skills" className="flex flex-col lg:flex-row justify-center items-center gap-x-5 pt-3 lg:pt-16">
          <div className="max-w-md md:min-w-[440px]" data-aos="zoom-in" data-aos-delay="300">
             <Lottie className="w-full" animationData={skillsImg} />
          </div>
