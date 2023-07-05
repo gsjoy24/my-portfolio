@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 import { FiMonitor } from 'react-icons/fi'
-import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 import Button from "../Button/Button";
 import Lottie from "lottie-react";
@@ -40,6 +40,11 @@ const Banner = () => {
                <button data-aos="zoom-in" data-aos-delay="700">
                   <a target='_blank' rel='noreferrer' href="https://github.com/gsjoy24/"
                   ><FaGithub size={30} className='border-black dark:border-white active:scale-90 ease-in-out duration-200 text-[#171515] dark:text-white' /></a>
+               </button>
+               {/* youtube */}
+               <button data-aos="zoom-in" data-aos-delay="800" data-aos-anchor-placement="bottom-bottom">
+                  <a target='_blank' rel='noreferrer' href="https://youtube.com/@dev.codewithjoy"
+                  ><FaYoutube size={30} className='active:scale-90 ease-in-out duration-200 text-[#f00] dark:text-white' /></a>
                </button>
             </div>
             <div data-aos="flip-up" data-aos-delay="800">
