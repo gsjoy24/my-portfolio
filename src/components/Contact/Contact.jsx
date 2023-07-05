@@ -11,6 +11,7 @@ const Contact = () => {
       emailjs.sendForm('service_aoa5f2v', 'template_p38e9cp', form.current, 'jzaZ66tDLzr-oNZTW')
          .then((result) => {
             if (result.status === 200) {
+               form.current.reset()
                toast.success('Message sent successfully!')
             } else {
                toast.error('Failed to send! please try again later!')
