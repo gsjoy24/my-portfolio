@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser'
 import SectionTitle from '../SectionTitle/SectionTitle';
 import { useRef } from 'react';
 import { Toaster, toast } from 'react-hot-toast';
+import { BsFillSendFill } from 'react-icons/bs'
 
 const Contact = () => {
    const form = useRef();
@@ -52,7 +53,7 @@ const Contact = () => {
                </label>
                <textarea name='message' className="textarea w-full dark:bg-slate-800 bg-gray-200" placeholder="Message" required></textarea>
             </div>
-            <button data-aos="zoom-in" data-aos-delay="600" type='submit' className="button-send w-full mt-3"> send
+            <button data-aos="zoom-in" data-aos-delay="600" type='submit' className="button-send w-full mt-3 flex justify-center items-center gap-2"> <BsFillSendFill size={23}/> send
             </button>
          </form>
          <Toaster />
