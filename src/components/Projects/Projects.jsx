@@ -7,6 +7,7 @@ import convention from '../../assets/projects/convention-center.png'
 import hireMe from '../../assets/projects/hire-me.png'
 import toyverse from '../../assets/projects/toyverse.png'
 import donate from '../../assets/projects/donate-now.png'
+import meetPlanr from '../../assets/projects/meet-planr.png'
 import SingleProject from "./SingleProject";
 
 const Projects = () => {
@@ -14,6 +15,20 @@ const Projects = () => {
       <div id="projects" className="pt-32 relative">
          <SectionTitle title='projects' />
          <div className="flex justify-evenly flex-wrap gap-8">
+            <SingleProject
+               imgPath={meetPlanr} title='Meet Planr (Team Project)'
+               desc='This is an event scheduling
+                     website. The users can create an account
+                     and can create events with others. This is
+                     similar to Calendly.'
+               client='https://github.com/gsjoy24/MeetPlanr'
+               liveLink='https://meetplanr.vercel.app/'
+               tech='Next.js, Stripe.js, SendGrid, Firebase, Tailwind CSS, Axios,
+                        Chart.js, Moment.js, Mongodb etc.'
+               feature1='User authentication and person to person and group event scheduling.'
+               feature2='Send Confirmation and Update Mail by using Send Grid.'
+               feature3='Users can upgrade their plan by payment with Stripe payment system.'
+            />
             <SingleProject
                imgPath={speckSmart} title='Speck Smart'
                desc='A summer camp language school website where anybody can buy or sell any language classes.'

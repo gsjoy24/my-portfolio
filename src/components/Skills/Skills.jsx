@@ -17,6 +17,8 @@ import npm from '../../assets/skills/npm.png'
 import react from '../../assets/skills/react.png'
 import vercel from '../../assets/skills/vercel.png'
 import vite from '../../assets/skills/vite.svg'
+import next from '../../assets/skills/next.png'
+import redux from '../../assets/skills/redux.png'
 import SkillImg from "./SkillImg";
 import Lottie from "lottie-react";
 import skillsImg from '../../assets/lottie/skills.json'
@@ -35,8 +37,10 @@ const Skills = () => {
                <SkillImg path={tailwind} name='tailwind' pars={85} />
                <SkillImg path={sass} name='sass' pars={50} />
                <SkillImg path={js} name='javascript' pars={75} />
-               <SkillImg path={react} name='react' pars={80} />
+               <SkillImg path={react} name='react.js' pars={80} />
                <SkillImg path={vite} name='vite' pars={80} />
+               <SkillImg path={next} name='next.js' pars={60} />
+               <SkillImg path={redux} name='redux' pars={60} />
                <SkillImg path={nodejs} name='node.js' pars={40} />
                <SkillImg path={express} name='express' pars={40} />
                <SkillImg path={firebase} name='firebase' pars={70} />

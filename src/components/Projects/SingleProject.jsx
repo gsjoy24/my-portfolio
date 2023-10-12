@@ -9,13 +9,13 @@ const SingleProject = ({ imgPath, title, desc, liveLink, client, server, feature
             <p className='text-sm'>{desc}</p>
             <h4 className="my-2 font-bold">Special Features</h4>
             <ul className="space-y-1">
-               <li className='flex items-center gap-3'> <FaCheckCircle size={15} />{feature1}</li>
-               <li className='flex items-center gap-3'> <FaCheckCircle size={15} />{feature2}</li>
-               {feature3 && <li className='flex items-center gap-3'> <FaCheckCircle size={15} />{feature3}</li>}
+               <li className='flex items-center gap-3'> <FaCheckCircle size={18} />{feature1}</li>
+               <li className='flex items-center gap-3'> <FaCheckCircle size={18} />{feature2}</li>
+               {feature3 && <li className='flex items-center gap-3'> <FaCheckCircle size={18} />{feature3}</li>}
             </ul>
             <h4 className="my-2 font-bold">Technologies</h4>
-            <p className="text-sm mb-2">{tech}</p>
-            <div className="flex justify-evenly items-center pt-4 border-t absolute bottom-3 left-0 w-full">
+            <p className="text-sm my-2">{tech}</p>
+            <div className="flex justify-evenly items-center pt-4 border-t absolute bottom-3 left-0 w-full ">
                <LinkBtn path={liveLink} pathName='LIVE' />
                <LinkBtn path={client} pathName='CLIENT' />
                {server && <LinkBtn path={server} pathName='SERVER' />}
