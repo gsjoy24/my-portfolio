@@ -14,7 +14,7 @@ const Projects = () => {
    return (
       <div id="projects" className="pt-32 relative">
          <SectionTitle title='projects' />
-         <div className="flex justify-evenly flex-wrap gap-8">
+         <div className="flex justify-center md:justify-around flex-wrap gap-8">
             <SingleProject
                imgPath={meetPlanr} title='Meet Planr (Team Project)'
                desc='This is an event scheduling

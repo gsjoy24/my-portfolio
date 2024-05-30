@@ -2,7 +2,7 @@ import { FaCheckCircle } from 'react-icons/fa'
 import LinkBtn from '../LinkBtn/LinkBtn';
 const SingleProject = ({ imgPath, title, desc, liveLink, client, server, feature1, feature2, feature3, tech }) => {
    return (
-      <div data-aos="zoom-in" data-aos-delay="300" data-aos-anchor-placement="top-center" className="max-w-[420px] w-full p-2 border rounded-md relative pb-12 group">
+      <div data-aos="zoom-in" data-aos-delay="300" data-aos-anchor-placement="top-center" className="max-w-[570px] md:max-w-[470px] w-full p-2 border rounded-md relative pb-12 group">
          <img className="w-full h-56 object-cover object-top hover:object-bottom duration-[6000ms] ease-linear" src={imgPath} alt={title} />
          <div className="p-3">
             <h3 className="text-2xl font-bold">{title}</h3>

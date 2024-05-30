@@ -2,12 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-font-family: 'Josefin Sans', sans-serif;
-scroll-behavior: smooth;
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	scroll-behavior: smooth;
 }
-.myImg{
-   animation: myImg 4s ease-out 0s infinite alternate both;
+.myImg {
+	animation: myImg 4s ease-out 0s infinite alternate both;
 }
 @keyframes myImg {
 	0% {
@@ -20,7 +20,7 @@ scroll-behavior: smooth;
 		-moz-transform: translate(6px, -6px);
 		-ms-transform: translate(6px, -6px);
 		-o-transform: translate(6px, -6px);
-}
+	}
 
 	40% {
 		transform: translate(6px, 6px);
@@ -39,65 +39,66 @@ scroll-behavior: smooth;
 	}
 }
 
-
 .button-send {
- --color: #00A97F;
- padding: 0.8em 1.7em;
- background-color: transparent;
- border-radius: .3em;
- position: relative;
- overflow: hidden;
- cursor: pointer;
- -webkit-transition: .5s;
- transition: .5s;
- font-weight: 400;
- font-size: 17px;
- border: 1px solid;
- font-family: inherit;
- text-transform: uppercase;
- color: var(--color);
- z-index: 1;
+	--color: #00a97f;
+	padding: 0.8em 1.7em;
+	background-color: transparent;
+	border-radius: 0.3em;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	font-weight: 400;
+	font-size: 17px;
+	border: 1px solid;
+	font-family: inherit;
+	text-transform: uppercase;
+	color: var(--color);
+	z-index: 1;
 }
 
-.button-send::before, .button-send::after {
- content: '';
- display: block;
- width: 200px;
- height: 200px;
- -webkit-transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- position: absolute;
- border-radius: 50%;
- z-index: -1;
- background-color: var(--color);
- -webkit-transition: 500ms ease;
- transition: 500ms ease;
- -moz-transition: 500ms ease;
- -ms-transition: 500ms ease;
- -o-transition: 500ms ease;
+.button-send::before,
+.button-send::after {
+	content: '';
+	display: block;
+	width: 200px;
+	height: 200px;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 50%;
+	z-index: -1;
+	background-color: var(--color);
+	-webkit-transition: 500ms ease;
+	transition: 500ms ease;
+	-moz-transition: 500ms ease;
+	-ms-transition: 500ms ease;
+	-o-transition: 500ms ease;
 }
 
 .button-send::before {
- top: -2em;
- left: -1em;
+	top: -2em;
+	left: -1em;
 }
 
 .button-send::after {
- left: calc(100% + 1em);
- top: calc(100% + 1em);
+	left: calc(100% + 1em);
+	top: calc(100% + 1em);
 }
 
-.button-send:hover::before, .button-send:hover::after {
- height: 810px;
- width: 810px;
+.button-send:hover::before,
+.button-send:hover::after {
+	height: 810px;
+	width: 810px;
 }
 
 .button-send:hover {
- color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 
 .button-send:active {
- -webkit-filter: brightness(.8);
-         filter: brightness(.8);
+	-webkit-filter: brightness(0.8);
+	filter: brightness(0.8);
 }
