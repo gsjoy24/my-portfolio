@@ -22,9 +22,10 @@
 		<meta property="og:type" content="website" />
 		<meta name="robots" content="index, follow" />
 		<link rel="canonical" href="https://gour-chandra-saha.web.app" />
+		<link rel="robots" href="/robots.txt" />
 		<title>Gour Saha Joy | Full Stack Developer</title>
 		<link rel="icon" type="image/svg+xml" href="/logo.png" />
-		<!-- Structured Data (Schema.org) -->
+
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
@@ -38,6 +39,18 @@
 					"http://github.com/gsjoy24"
 				]
 			}
+		</script>
+
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-XXXXXXXXX-X');
 		</script>
 	</head>
 	<body class="bg-white dark:bg-[#001E3E]">
