@@ -89,7 +89,7 @@ function App() {
 			</div>
 			<div className='drawer-side z-40'>
 				<label htmlFor='my-drawer-3' className='drawer-overlay'></label>
-				<ul className='menu p-4 w-80 max-h-[93vh]  h-full overflow-hidden font-semibold items-center dark:bg-[#001E3E] mt-16 text-2xl z-50 flex flex-col gap-12'>
+				<ul className='menu p-4 w-80 max-h-[93vh]  h-full overflow-hidden font-semibold items-center bg-[#ffffffdc] dark:bg-[#001e3edd] mt-16 text-2xl z-50 flex flex-col gap-12 blur-0'>
 					{/* Sidebar content here */}
 					{navItems}
 				</ul>
