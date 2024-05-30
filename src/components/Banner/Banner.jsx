@@ -24,9 +24,9 @@ const Banner = () => {
 					, I am
 				</p>
 				<h1 data-aos='fade-right' className='text-4xl md:text-5xl font-extrabold flex flex-wrap gap-3'>
-					<span>Gour Chandra </span>{' '}
+					<span>Gour Saha</span>{' '}
 					<span className='flex'>
-						Saha <img className='w-12' src='https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif' alt='✨'></img>
+						Joy <img className='w-12' src='https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif' alt='✨'></img>
 					</span>
 				</h1>
 				<p
@@ -37,7 +37,7 @@ const Banner = () => {
 				>
 					{' '}
 					<FiMonitor />
-					<span>Junior Front-End Developer</span>
+					<span>A Full-stack Developer</span>
 				</p>
 
 				{/* social contact */}
