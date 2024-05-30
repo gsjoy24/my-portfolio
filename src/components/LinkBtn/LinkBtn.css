@@ -42,6 +42,8 @@ button.linkBtn:hover::after {
 
 button.linkBtn span {
 	text-align: center;
+	position: relative;
+	bottom: -2px;
 	text-decoration: none;
 	width: 100%;
 	padding: 10px 18px;
